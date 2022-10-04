@@ -1,126 +1,52 @@
 Codigo 1
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Algoritmo sin_titulo
+	definir op,n,nfibonacci Como Entero
+	escribir "elija una opción"
+	escribir "Elija el metodo"
+	leer op
+	Segun op Hacer
+
+		2:
+			escribir "ingrese el maximo que llegara la serie"
+			leer n
+			nfibonacci<-0
+			nnormal<-0
+			nanterior<-1
+			Mientras nfibonacci <=n Hacer
+				escribir "                     ",nfibonacci
+				nfibonacci = nnormal + nanterior
+				nanterior=nnormal
+				nnormal=nfibonacci
+			Fin Mientras
+			Escribir "----------------------------------------------"
+		De Otro Modo:
+			escribir "esta opcion no existe"
+	Fin Segun
+FinAlgoritmoAlgoritmo sin_titulo
+	definir op,n,nfibonacci Como Entero
+	escribir "elija una opción"
+	escribir "Elija el metodo"
+	leer op
+	Segun op Hacer
+
+		2:
+			escribir "ingrese el maximo que llegara la serie"
+			leer n
+			nfibonacci<-0
+			nnormal<-0
+			nanterior<-1
+			Mientras nfibonacci <=n Hacer
+				escribir "                     ",nfibonacci
+				nfibonacci = nnormal + nanterior
+				nanterior=nnormal
+				nnormal=nfibonacci
+			Fin Mientras
+			Escribir "----------------------------------------------"
+		De Otro Modo:
+			escribir "esta opcion no existe"
+	Fin Segun
+FinAlgoritmo
 
 
 
