@@ -53,119 +53,21 @@ FinAlgoritmo
 
 Codigo 2
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Definir h, a, espacio, letras Como Entero
+		 Definir let Como Caracter
+		 Escribir "Ingrese los niveles de la piramide"
+		 Leer h;
+		 Escribir "Ingrese un caracter"
+		 leer let;
+		 Para a<- 1 Hasta h Con paso 1 Hacer
+			 Para espacio <- 1 Hasta h-a Con Paso 1 Hacer
+				 Escribir Sin saltar "  "
+			 FinPara
+			 Para letras <- 1 Hasta a Con paso 1 Hacer
+				 Escribir Sin Saltar " " let "  "
+			 FinPara
+			 Escribir " "
+		 FinPara
 
 
 
